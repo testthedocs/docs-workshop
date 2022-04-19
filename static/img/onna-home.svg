@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 701.45 678.25" class="onna-home-animation">
+              <defs>
+                <style>
+                  .cls-2{fill:none;stroke-miterlimit:10;stroke:#f1f5f7;stroke-width:50px}
+                </style>
+              </defs>
+              <g id="Layer_2" data-name="Layer 2">
+                <g id="Layer_1-2" data-name="Layer 1">
+                  <g id="arcOuter" data-svg-origin="323.5 339.06012535095215" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px; opacity: 1;">
+                    <path id="arcOuterGrey" class="cls-2" d="M472.34 624.18A313.89 313.89 0 01340 653.25c-174 0-315-141-315-315 0-125.37 73.23-233.62 179.25-284.33"></path>
+                    <path id="arcOuterYellow" d="M372.21 24.87c104.22 10.59 193.41 72 242.44 159" stroke="#feba2c" stroke-width="50" fill="none" stroke-miterlimit="10"></path>
+                    <path id="arcOuterSmall" d="M622 466.76a109.74 109.74 0 01-77.08 104.76" stroke="#bdbfc9" stroke-width="20" fill="none" stroke-miterlimit="10"></path>
+                  </g>
+                  <path id="arcInner" class="cls-2" d="M565 337.44c0 101-66.5 186.4-158.09 214.89M115 337.44c0-124.26 100.74-225 225-225 95.58 0 177.25 59.6 209.85 143.67" data-svg-origin="340 332.385009765625" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px; opacity: 1;"></path>
+                  <path id="shapeRedTriangle" fill="#ed0100" d="M701.45 360.79l-21.3-79.48-58.18 58.18 79.48 21.3z" data-svg-origin="661.7100219726562 321.0500030517578" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px;"></path>
+                  <path id="shapeGreySquare" transform="matrix(0.82747,0.56151,-0.56151,0.82747,61.61079,-135.01072)" fill="#6a6e7a" d="M229 11.25h43v43h-43z" data-svg-origin="250.5 32.75" style="transform-origin: 0px 0px;"></path>
+                  <path id="shapeBlueTriangle" fill="#0047ff" d="M77.72 610.8L130 520.25H25.43l52.29 90.55z" data-svg-origin="77.71500015258789 565.5249938964844" transform="matrix(1,0,0,1,0,0)" style="transform-origin: 0px 0px;"></path>
+                  <path id="shapeOnna" d="M417.37 353.05a77.64 77.64 0 11-77.64-77.64 77.64 77.64 0 0177.64 77.64zm29.86 0a107.5 107.5 0 11-107.5-107.5 107.5 107.5 0 01107.5 107.5zm-77.76 22.11l-29.74-57.94L310 375.16z" fill="#001530" fill-rule="evenodd" style="opacity: 1;"></path>
+                </g>
+              </g>
+            </svg>

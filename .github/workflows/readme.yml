@@ -1,0 +1,33 @@
+name: Validate README
+
+on:
+  push:
+    paths:
+      - 'README.md'
+
+jobs:
+  markdown-lint:
+    name: Markdown Lint CLI
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: nosborn/github-action-markdown-cli@v1.1.1
+        with:
+          files: 'README.md'
+          config_file: ".markdownlint.json"
+
+  # link-check:
+  #   strategy:
+  #     matrix:
+  #       file-extension: [.md]
+  #     fail-fast: false
+  #   runs-on: ubuntu-20.04
+  #   steps:
+  #   - uses: actions/checkout@master
+  #   - uses: gaurav-nelson/github-action-markdown-link-check@v1
+  #     with:
+  #       use-quiet-mode: 'yes'
+  #       use-verbose-mode: 'yes'
+  #       config-file: '.mlc_config.json'
+  #       #check-modified-files-only: 'yes'
+  #       file-path: './README.md'

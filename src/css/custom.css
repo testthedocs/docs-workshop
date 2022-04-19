@@ -1,0 +1,299 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@import "boxes.css";
+@import "btn.css";
+@import "announcement-bar.css";
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #6275d7;
+  --ifm-color-primary-dark: #495fd1;
+  --ifm-color-primary-darker: #3d54cd;
+  --ifm-color-primary-darkest: #2c42af;
+  --ifm-color-primary-light: #7b8bdd;
+  --ifm-color-primary-lighter: #8796e1;
+  --ifm-color-primary-lightest: #adb7ea;
+  --ifm-footer-background-color: rgb(172, 20, 19);
+  --ifm-footer-link-color: rgb(255, 255, 255);
+  --ifm-footer-title-color: rgb(248, 248, 248);
+  --ifm-footer-color: rgb(255, 255, 255);
+  --ifm-code-font-size: 85%;
+  --ifm-code-background: #F1F2F2;
+  --ifm-color-info-dark: #495fd1;
+  --ifm-color-info-darker: #3d54cd;
+  --ifm-color-info-darkest: #2c42af;
+  --ifm-font-family-base: 'Poppins';
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #2c42af;
+  --ifm-footer-color: var(--ifm-footer-link-color);
+  --ifm-footer-link-color: var(--ifm-color-secondary);
+  --ifm-footer-title-color: var(--ifm-color-white);
+}
+
+.docusaurus-highlight-code-line {
+  background-color: #292d3e;
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+
+
+/* html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+} */
+
+a {
+  color: #3d54cd;
+  text-decoration: var(--ifm-link-decoration);
+  transition: color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+a:hover {
+  color: #3d54cd;
+  text-decoration: underline;
+}
+
+.navbar__link:hover, .navbar__link--active {
+  color: #001530;
+  text-decoration: none;
+}
+
+.button--outline {
+  --ifm-button-background-color: #3d54cd;
+  --ifm-button-color: #fff;
+}
+
+.button:hover {
+  color:#fff;
+  text-decoration: none;
+}
+
+.button--outline:hover {
+  --ifm-button-background-color: #001530;
+}
+
+.table-of-contents__link:hover, .table-of-contents__link:hover code, .table-of-contents__link--active, .table-of-contents__link--active code {
+  color: #3d54cd;
+  text-decoration: none;
+}
+
+.menu__link--active, .menu__link--active:hover {
+  color: #0047ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #001530;
+  font-family: var(--ifm-heading-font-family);
+  font-weight: var(--ifm-heading-font-weight);
+  line-height: var(--ifm-heading-line-height);
+  margin: var(--ifm-heading-margin-top) 0 var(--ifm-heading-margin-bottom) 0;
+}
+
+.tabs {
+  color: #0047ff;
+  font-weight: var(--ifm-font-weight-bold);
+}
+
+.tabs__item--active {
+  border-bottom-color: var(--ifm-tabs-color-active-border);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  color: #001530;
+}
+
+/* help page */
+.help-page .cards {
+  margin-top: 38px;
+  margin-bottom: 56px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 36px;
+}
+.help-page .card {
+  padding: 24px 28px 18px 28px;
+  border: 1px solid #eee;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+}
+
+.help-page .card .header {
+  padding: 0;
+}
+
+.help-page .card h2 {
+  display: flex;
+  align-items: center;
+}
+
+.help-page .card h2 img {
+  padding-bottom: 2px;
+  height: 28px;
+  margin-right: 14px;
+}
+
+.help-page #documents-icon {
+  margin-right: 10px;
+  margin-left: -6px;
+}
+
+.help-page .card p {
+  color: #6b7280;
+}
+
+.help-page .card .buttons {
+  margin-top: 18px;
+}
+
+.help-page .card .buttons a {
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s;
+  margin-right: 32px;
+}
+
+.help-page .card .buttons a:hover {
+  text-decoration: none;
+}
+
+.help-page .card .buttons a:hover svg {
+  transform: translateX(2px);
+}
+
+.help-page .card .buttons svg {
+  height: 12px;
+  margin-left: 4px;
+  transition: transform 0.3s;
+}
+
+.help-page .card .buttons {
+  display: flex;
+}
+
+.sidebar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-styles-module {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  padding-top: var(--ifm-navbar-height);
+  width: var(--doc-sidebar-width);
+  transition: opacity 50ms ease;
+  /* background-color: #f2f5f7; */
+}
+
+/* sidebar CSS */
+
+.menu__list-item {
+  margin: .25rem 0;
+  padding: .6em 0;
+}
+
+.menu__link--active {
+  color: inherit;
+  font-weight: 600;
+}
+
+html[data-theme=dark] .menu>ul>.menu__list-item:first-child, html[data-theme=light] .menu>ul>.menu__list-item:first-child {
+  border-top-width: 0;
+  padding-top: 0;
+}
+
+.menu__list-item--collapsed .menu__link--sublist:after {
+  transform: rotate(
+90deg
+);
+}
+.menu__link--sublist:after {
+  background: none;
+  font-size: 1.25rem;
+  content: "+";
+  height: inherit;
+  width: inherit;
+  transform: rotate(
+45deg
+);
+  -webkit-filter: none;
+  filter: none;
+}
+/* sidebar CSS end */
+
+.onna-home-animation {
+  width: auto;
+  max-height: 265px;
+  display: block;
+}
+
+/* Custom Onna colors for admonitions  */
+.alert--secondary {
+  --ifm-alert-background-color: #f2f5f7;
+  --ifm-alert-background-color-highlight: rgba(235, 237, 240, 0.15);
+  --ifm-alert-foreground-color: var( --ifm-color-secondary-contrast-foreground );
+  --ifm-alert-border-color: #6a6e7a;
+}
+
+.alert--warning {
+  --ifm-alert-background-color: var( --ifm-color-warning-contrast-background );
+  --ifm-alert-background-color-highlight: rgba(255, 186, 0, 0.15);
+  --ifm-alert-foreground-color: var( --ifm-color-warning-contrast-foreground );
+  --ifm-alert-border-color: #feba2c;
+}
+
+.alert--info {
+  --ifm-alert-background-color: var( --ifm-color-info-contrast-background );
+  --ifm-alert-background-color-highlight: rgba(84, 199, 236, 0.15);
+  --ifm-alert-foreground-color: var( --ifm-color-info-contrast-foreground );
+  --ifm-alert-border-color: #0047ff;
+}
+
+.alert--danger {
+  --ifm-alert-background-color: var( --ifm-color-danger-contrast-background );
+  --ifm-alert-background-color-highlight: rgba(250, 56, 62, 0.15);
+  --ifm-alert-foreground-color: var( --ifm-color-danger-contrast-foreground );
+  --ifm-alert-border-color: #ed0100;
+}
+
+blockquote {
+  --ifm-code-background: rgba(235, 237, 240, 0.15);
+  --ifm-link-color: var(--ifm-blockquote-foreground-color);
+  --ifm-link-hover-color: var(--ifm-blockquote-foreground-color);
+  --ifm-link-decoration: underline;
+  background-color: #d4a33c;
+  border-color: #a17b29;
+  border-style: solid;
+  border-width: 0;
+  border-left-width: var(--ifm-blockquote-border-left-width);
+  box-shadow: var(--ifm-blockquote-shadow);
+  color: var(--ifm-blockquote-foreground-color);
+  font-size: var(--ifm-blockquote-font-size);
+  margin: 0 0 var(--ifm-spacing-vertical);
+  padding: var(--ifm-blockquote-padding-vertical) var(--ifm-blockquote-padding-horizontal);
+}
+
+/* End - Custom Onna colors for admonitions  */
+
+.aa-DetachedSearchButton {
+  color: #0047ff !important;
+  border: 1px solid #0047ff !important;
+}
+
+.aa-DetachedSearchButtonIcon {
+  align-items: center;
+  color: #0047ff !important;
+}
+
+/* ReDoc */
+.redocusaurus h2, .redocusaurus h3, .redocusaurus h4 {
+  color: #6a6e7a !important;
+}
+/* ReDoc end */
