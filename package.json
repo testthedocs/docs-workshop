@@ -45,7 +45,8 @@
   "devDependencies": {
     "@arkweid/lefthook": "^0.7.7",
     "@ocular-d/vale-bin": "^1.0.15",
-    "@stoplight/spectral-cli": "^6.1.0",
+    "@stoplight/spectral-cli": "^6.3.0",
+    "add": "^2.0.6",
     "alex": "^10.0.0",
     "markdown-link-check": "^3.9.0",
     "markdownlint-cli": "^0.30.0",

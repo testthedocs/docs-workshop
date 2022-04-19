@@ -14,3 +14,6 @@ pre-commit:
     markdown-lint:
       glob: "docs/*.{md}"
       run: ./node_modules/.bin/markdownlint {staged_files}
+    openapi-validation:
+      glob: "openapi.yaml"
+      run: ./node_modules/.bin/spectral lint openapi.yaml
