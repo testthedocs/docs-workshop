@@ -21,9 +21,6 @@ help: ## This help message
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
 .PHONY:
-run: ## Start container in developer mode
-	@echo "$(YELLOW)==> Running local in developer mode $(RESET)"
-	@docker run --rm -p 3000:3000 --name api-docs-dev api-docs-dev1
 
 .PHONY: build-local
 build-local: ## Create a local test build
@@ -45,11 +42,7 @@ lint-openapi: ## Lint OpenAPI spec with Spectral
 	@echo "$(YELLOW)==> Linting OpenAPI spec $(RESET)"
 	@./node_modules/.bin/spectral lint openapi.yaml
 
-.PHONY: build-prod
-build-prod: ## Build production image
-	@docker build --no-cache=true -t $(NAME) -f Dockerfile .
-
-.PHONY: run-prod
-run-prod: ## Start prod container locally on port 8080
-	@echo "$(YELLOW)==> Please open your browser localhost:8080$(RESET)"
-	@docker run --rm -p 8080:8080 --name public-api-docs $(NAME):latest
+.PHONY: init
+init: ## Initialize dev setup
+	@echo "$(YELLOW)==> Initialize dev setup$(RESET)"
+	@echo Hello World

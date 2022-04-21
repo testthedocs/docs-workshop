@@ -89,8 +89,8 @@ function Home() {
             </div>
             <div className="box box2 card">
               <div className="container">
-                <h2>Internal developer docs</h2>
-                <p>All about our internal developer setup, how to add new endpoints,
+                <h2>Developer docs</h2>
+                <p>All about the developer setup, how to add new endpoints,
                    how to add documentation and more. </p>
                 <ul>
                   <li>

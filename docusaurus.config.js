@@ -14,7 +14,7 @@ module.exports = {
     description:
       'API Documentation',
   },
-  organizationName: 'svx', // Usually your GitHub org/user name.
+  organizationName: 'testthedocs', // Usually your GitHub org/user name.
   //projectName: '', // Usually your repo name.
   // plugins: [
   //   [require.resolve('@cmfcmf/docusaurus-search-local'), {
@@ -85,6 +85,12 @@ module.exports = {
           href: '/api',
           label: 'API Explorer',
           position: 'right',
+        },
+        {
+          href: 'https://github.com/testthedocs/docs-workshop',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
         //{to: '/changelog', label: 'API Status', position: 'right'},
         //{to: '/changelog', label: 'API Changelog', position: 'right'},

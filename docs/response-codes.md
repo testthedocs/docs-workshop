@@ -1,7 +1,7 @@
 ---
 id: response-codes
 title: Response Codes
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 The list of HTTP status response codes returned by the API.
