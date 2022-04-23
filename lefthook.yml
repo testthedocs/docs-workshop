@@ -16,4 +16,4 @@ pre-commit:
       run: ./node_modules/.bin/markdownlint {staged_files}
     openapi-validation:
       glob: "openapi.yaml"
-      run: ./node_modules/.bin/spectral lint openapi.yaml
+      run: ./node_modules/.bin/spectral lint openapi.yaml {staged_files}
