@@ -114,6 +114,18 @@ module.exports = {
               label: 'Quickstart',
               to: '/changelog',
             },
+            {
+              label: 'Guides',
+              href: '/guides',
+            },
+            {
+              label: 'Development',
+              href: '/development',
+            },
+            {
+              label: 'API Explorer',
+              href: '/api',
+            },
           ],
         },
         {
@@ -129,7 +141,7 @@ module.exports = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/onnahq',
+              href: 'https://twitter.com/der_sven_',
             },
             {
               label: 'Postman',
@@ -138,27 +150,23 @@ module.exports = {
           ],
         },
         {
-          title: 'Foobar',
+          title: 'My Cool Tech',
           items: [
             {
               label: 'Website',
-              href: 'https://onna.com',
+              href: 'https://testthedocs.org',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/testthedocs',
             },
             {
               label: 'Blog',
-              href: 'https://onna.com/blog/',
+              href: 'https://testthedocs.org',
             },
             {
-              label: 'Webinars',
-              href: 'https://onna.com/webinars/',
-            },
-            {
-              label: 'Help Center',
-              href: 'https://support.onna.com/en/',
-            },
-            {
-              label: 'Book a Demo',
-              href: 'https://onna.com/book-a-demo/'
+              label: 'Help',
+              href: '/help',
             },
             //{
             //  label: 'API Changelog',

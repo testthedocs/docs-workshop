@@ -34,6 +34,24 @@
   --ifm-font-family-base: 'Poppins';
 }
 
+blockquote {
+  --ifm-code-background: rgba(235, 237, 240, 0.15);
+  --ifm-link-color: var(--ifm-blockquote-foreground-color);
+  --ifm-link-hover-color: var(--ifm-blockquote-foreground-color);
+  --ifm-link-decoration: underline;
+  background-color: #adb7ea;
+  border-color: #2c42af;
+  border-style: solid;
+  border-width: 0;
+    border-left-width: 0px;
+  border-left-width: var(--ifm-blockquote-border-left-width);
+  box-shadow: var(--ifm-blockquote-shadow);
+  color: var(--ifm-blockquote-foreground-color);
+  font-size: var(--ifm-blockquote-font-size);
+  margin: 0 0 var(--ifm-spacing-vertical);
+  padding: var(--ifm-blockquote-padding-vertical) var(--ifm-blockquote-padding-horizontal);
+}
+
 .footer--dark {
   --ifm-footer-background-color: #2c42af;
   --ifm-footer-color: var(--ifm-footer-link-color);
@@ -208,24 +226,6 @@ html[data-theme=dark] .menu>ul>.menu__list-item:first-child, html[data-theme=lig
   padding-top: 0;
 }
 
-.menu__list-item--collapsed .menu__link--sublist:after {
-  transform: rotate(
-90deg
-);
-}
-.menu__link--sublist:after {
-  background: none;
-  font-size: 1.25rem;
-  content: "+";
-  height: inherit;
-  width: inherit;
-  transform: rotate(
-45deg
-);
-  -webkit-filter: none;
-  filter: none;
-}
-/* sidebar CSS end */
 
 .onna-home-animation {
   width: auto;
@@ -249,10 +249,11 @@ html[data-theme=dark] .menu>ul>.menu__list-item:first-child, html[data-theme=lig
 }
 
 .alert--info {
-  --ifm-alert-background-color: var( --ifm-color-info-contrast-background );
+  --ifm-alert-background-color: #e1e5fb;
+  /* --ifm-alert-background-color: var( --ifm-color-info-contrast-background ); */
   --ifm-alert-background-color-highlight: rgba(84, 199, 236, 0.15);
   --ifm-alert-foreground-color: var( --ifm-color-info-contrast-foreground );
-  --ifm-alert-border-color: #0047ff;
+  --ifm-alert-border-color: #2c42af;
 }
 
 .alert--danger {
@@ -262,24 +263,7 @@ html[data-theme=dark] .menu>ul>.menu__list-item:first-child, html[data-theme=lig
   --ifm-alert-border-color: #ed0100;
 }
 
-blockquote {
-  --ifm-code-background: rgba(235, 237, 240, 0.15);
-  --ifm-link-color: var(--ifm-blockquote-foreground-color);
-  --ifm-link-hover-color: var(--ifm-blockquote-foreground-color);
-  --ifm-link-decoration: underline;
-  background-color: #d4a33c;
-  border-color: #a17b29;
-  border-style: solid;
-  border-width: 0;
-  border-left-width: var(--ifm-blockquote-border-left-width);
-  box-shadow: var(--ifm-blockquote-shadow);
-  color: var(--ifm-blockquote-foreground-color);
-  font-size: var(--ifm-blockquote-font-size);
-  margin: 0 0 var(--ifm-spacing-vertical);
-  padding: var(--ifm-blockquote-padding-vertical) var(--ifm-blockquote-padding-horizontal);
-}
-
-/* End - Custom Onna colors for admonitions  */
+/* End - Custom colors for admonitions  */
 
 .aa-DetachedSearchButton {
   color: #0047ff !important;
