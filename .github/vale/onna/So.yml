@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "Don't start a sentence with 'so'"
+message: "Don't start a sentence with 'So'"
 ignorecase: true
 level: error
 #raw:
