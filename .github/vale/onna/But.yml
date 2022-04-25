@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "Do not start a paragraph with a 'but'."
+message: "Do not start a paragraph with a 'But'."
 level: error
 scope: paragraph
 tokens:
