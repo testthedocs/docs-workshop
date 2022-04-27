@@ -19,3 +19,5 @@ This is just simple.
 Just do it!
 
 Easy like that.
+
+Simply and easy
