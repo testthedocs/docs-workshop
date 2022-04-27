@@ -1,9 +1,6 @@
 name: Check Wording
-on:
-  push:
-    paths:
-    - 'docs/**'
-
+on: [push]
+  
 jobs:
   prose:
     runs-on: ubuntu-20.04
@@ -13,9 +10,9 @@ jobs:
 
     - name: Vale
       uses: errata-ai/vale-action@v1.4.0
-      with:
+      #with:
         # Optional
-        files: '["docs"]'
+        #files: '["docs"]'
       env:
         # Required
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

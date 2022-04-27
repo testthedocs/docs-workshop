@@ -8,8 +8,9 @@ Awesome things in 5 minutes
 
 ---
 
-So, this it.
+So, this is it.
 There is a pizza.
 This is easy.
 Only this
-But this is pasta
+But I like pasta!
+Simply do this.
