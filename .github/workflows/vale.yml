@@ -12,10 +12,10 @@ jobs:
       uses: actions/checkout@master
 
     - name: Vale
-      uses: errata-ai/vale-action@v1.4.0
+      uses: errata-ai/vale-action@v1
       with:
         # Optional
-        files: '["docs"]'
+        files: docs
       env:
         # Required
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
