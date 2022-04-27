@@ -1,0 +1,6 @@
+repos:
+- repo: https://github.com/ocular-d/pre-commit-hooks.git
+  rev: 0.0.6
+  hooks:
+    - id: vale
+    - id: markdown-lint
