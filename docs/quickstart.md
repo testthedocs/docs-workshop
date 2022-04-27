@@ -8,16 +8,4 @@ Awesome things in 5 minutes
 
 ---
 
-TBC
-
-This is just simple.
-
-Yeah, pasta!
-
-Eg do this.
-
-This is just simple.
-
 Just do it!
-
-Easy like that.
