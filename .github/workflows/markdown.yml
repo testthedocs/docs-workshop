@@ -10,7 +10,7 @@ jobs:
     name: Markdown Lint CLI
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: nosborn/github-action-markdown-cli@v1.1.1
         with:
           files: 'website/docs, api_docs'
